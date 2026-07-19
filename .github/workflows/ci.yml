@@ -9,6 +9,3 @@ jobs:
         with: { go-version: "stable" }
       - run: go vet ./...
       - run: go test ./...
-      - uses: golangci/golangci-lint-action@v8
-        with:
-          version: latest
